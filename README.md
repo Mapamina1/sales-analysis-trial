@@ -29,6 +29,39 @@ each sale made by the supermarket for the period under review.
 
 ### Tools
 
--Excel
+ - Excel
 
--Python
+ - Python 
+
+ - Power BI Creating reportsData Loading and Inspection 
+    2.Handling missing values 
+    3.Data cleaning and formatting
+
+### Data Cleaning/Preparation
+
+ in the initial data preparation phase,i performed the following tasks:
+
+ 1 Data Loading and Inspection 
+ 
+ 2.Handling missing values 
+ 
+ 3.Data cleaning and formatting
+
+### Exploratory Data Analysis
+EDA provides the means to exploring the sales data to answer critical questions such as:
+ 
+### Data Analysis
+
+some interesting codes/features worked with
+
+```Python
+sales_df = pd.read_csv("C:/Users/Nasa/Databankanalysis/Dataframes/sales.csv")
+```
+
+```Python
+sales.columns = [i.lower()for I in sales.columns]
+```
+
+```Sql
+select * from sales
+```
